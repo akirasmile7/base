@@ -1,0 +1,69 @@
+/* 全体のレイアウト調整 */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* 地図を画面全体に表示 */
+#map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* 凡例（左下） */
+#legend {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: white;
+  padding: 6px 10px;
+  font-size: 13px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  line-height: 1.4;
+  z-index: 1;
+}
+
+#legend h4 {
+  margin: 0 0 2px 0;
+  font-size: 14px;
+}
+
+.legend-color {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 6px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+/* タイトル（左上） */
+#title {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 3px 12px;
+  font-size: 18px;
+  font-weight: bold;
+  z-index: 1;
+  border-radius: 4px;
+}
+
+/* ロゴ（右上） */
+#logo {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  z-index: 1;
+}
+
+#logo img {
+  height: 15px;
+  width: auto;
+}
