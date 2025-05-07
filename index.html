@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>路上機器ラッピング位置図</title>
+    <meta name="description" content="路上機器ラッピング位置図の位置図です" />
+    <link href="style.css" rel="stylesheet" />
+    <!-- MapLibre GL JS -->
+    <script src="https://unpkg.com/maplibre-gl@4.3.2/dist/maplibre-gl.js"></script>
+    <link href="https://unpkg.com/maplibre-gl@4.3.2/dist/maplibre-gl.css" rel="stylesheet" />
+  </head>
+
+
+  <body>
+      <div id="title">路上機器ラッピング位置図</div>
+      <div id="logo"><img src="./pic/logo.png" alt="関サロゴ"></div>
+      <div id="map"></div>
+    
+      <div id="legend">
+        <h4>凡例</h4>
+        <div><span class="legend-color" style="background:#0000FF;"></span> 設置済</div>
+        <div><span class="legend-color" style="background:#FF0000;"></span> 商談中</div>
+      </div>
+    
+      <script src="main.js"></script>
+    </body>
+    
+</html>
